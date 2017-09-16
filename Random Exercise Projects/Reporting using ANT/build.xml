@@ -4,7 +4,7 @@
   To include a user specific buildfile here, simply create on in the same
   directory with the processsing instruction <?eclipse.ant.import?>
   as the first entry and export the buildfile again. -->
-<!-- [REPLACE values and ommit bracket] -->
+<!-- [REPLACE values and ommit bracket - mostly path of SoapUI Program bin testrunner.bat, output folder and soapui project files such as suite xml] -->
   
 <project basedir="." default="testreport" name="AnyNameTestAutomation">
 <target name="SoapUI">
