@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Ecplipe auto-generated file.
+  Any modifications will be overwritten.
+  To include a user specific buildfile here, simply create on in the same
+  directory with the processsing instruction <?eclipse.ant.import?>
+  as the first entry and export the buildfile again. -->
+<!-- [REPLACE values and ommit bracket] -->
+  
+<project basedir="." default="testreport" name="AnyNameTestAutomation">
+<target name="SoapUI">
+ <exec dir="." executable="C:\Program Files\SmartBear\SoapUI-5.3.0\bin\testrunner.bat">
+ <arg line="-r -j -f '[YourDesiredOutputPath]' -s'Smoke Test Suite' '[PathOfYour\Project.xml]'"/>
+ </exec>
+</target>
+<target name="testreport" depends="SoapUI">
+ <junitreport todir="[YourDesiredOutputPath]">
+ <fileset dir="[YourDesiredOutputPath]">
+ <include name="TEST-*.xml"/>
+ </fileset>
+ <report todir="[YourDesiredOutputPath]">
+ </report>
+ </junitreport>
+</target>
+</project>

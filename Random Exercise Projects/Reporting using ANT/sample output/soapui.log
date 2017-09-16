@@ -1,0 +1,338 @@
+2017-09-07 15:59:18,481 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\com.mysql.jdbc_5.1.5.jar] to extensions classpath
+2017-09-07 15:59:18,482 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\commons-codec-1.10.jar] to extensions classpath
+2017-09-07 15:59:18,482 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\commons-collections4-4.1.jar] to extensions classpath
+2017-09-07 15:59:18,483 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\commons-logging-1.2.jar] to extensions classpath
+2017-09-07 15:59:18,483 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\curvesapi-1.04.jar] to extensions classpath
+2017-09-07 15:59:18,483 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\junit-4.12.jar] to extensions classpath
+2017-09-07 15:59:18,483 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\log4j-1.2.17.jar] to extensions classpath
+2017-09-07 15:59:18,483 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\poi-3.16.jar] to extensions classpath
+2017-09-07 15:59:18,483 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\poi-examples-3.16.jar] to extensions classpath
+2017-09-07 15:59:18,484 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\poi-excelant-3.16.jar] to extensions classpath
+2017-09-07 15:59:18,484 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\poi-ooxml-3.16.jar] to extensions classpath
+2017-09-07 15:59:18,484 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\poi-ooxml-schemas-3.16.jar] to extensions classpath
+2017-09-07 15:59:18,484 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\poi-scratchpad-3.16.jar] to extensions classpath
+2017-09-07 15:59:18,484 INFO  [SoapUI] Adding [C:\Program Files\SmartBear\SoapUI-5.3.0\bin\ext\xmlbeans-2.6.0.jar] to extensions classpath
+2017-09-07 15:59:18,687 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Anne Calija\soapui-settings.xml]
+2017-09-07 15:59:21,101 INFO  [PluginManager] Adding plugin from [C:\Users\Anne Calija\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2017-09-07 15:59:21,101 INFO  [PluginManager] Adding plugin from [C:\Users\Anne Calija\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2017-09-07 15:59:22,083 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-09-07 15:59:22,083 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:22,091 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-09-07 15:59:22,091 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:22,096 INFO  [PluginManager] Adding plugin from [C:\Users\Anne Calija\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2017-09-07 15:59:22,135 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-09-07 15:59:22,135 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:22,150 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-09-07 15:59:22,150 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:22,198 INFO  [PluginManager] Adding plugin from [C:\Users\Anne Calija\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2017-09-07 15:59:22,920 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-09-07 15:59:22,920 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:22,921 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-09-07 15:59:22,921 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:22,924 INFO  [PluginManager] Adding plugin from [C:\Users\Anne Calija\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2017-09-07 15:59:23,578 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-09-07 15:59:23,578 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:23,580 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-09-07 15:59:23,580 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:23,631 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2017-09-07 15:59:23,631 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:23,661 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2017-09-07 15:59:23,661 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:112)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.execTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.work(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+2017-09-07 15:59:23,690 INFO  [PluginManager] 5 plugins loaded in 2590 ms
+2017-09-07 15:59:23,690 INFO  [DefaultSoapUICore] All plugins loaded
+2017-09-07 15:59:24,263 INFO  [WsdlProject] Loaded project from [file:/C:/Users/Anne%20Calija/Desktop/CountryAntReport.xml]
+2017-09-07 15:59:24,269 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Country_Detail_ANT_Reporting]
+2017-09-07 15:59:24,270 INFO  [SoapUITestCaseRunner] Running TestSuite [Smoke Test Suite], runType = SEQUENTIAL
+2017-09-07 15:59:24,276 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [countrySoap12 TestSuite]
+2017-09-07 15:59:24,292 INFO  [SoapUITestCaseRunner] running step [GetCountries]
+2017-09-07 15:59:25,975 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:25,975 INFO  [SoapUITestCaseRunner] running step [GetCountryByCountryCode]
+2017-09-07 15:59:26,242 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:26,242 INFO  [SoapUITestCaseRunner] running step [GetCountryByCurrencyCode]
+2017-09-07 15:59:26,506 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:26,507 INFO  [SoapUITestCaseRunner] running step [GetCurrencies]
+2017-09-07 15:59:27,311 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:27,311 INFO  [SoapUITestCaseRunner] running step [GetCurrencyByCountry]
+2017-09-07 15:59:27,578 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:27,578 INFO  [SoapUITestCaseRunner] running step [GetCurrencyCode]
+2017-09-07 15:59:28,114 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:28,114 INFO  [SoapUITestCaseRunner] running step [GetCurrencyCodeByCurrencyName]
+2017-09-07 15:59:28,380 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:28,380 INFO  [SoapUITestCaseRunner] running step [GetGMTbyCountry]
+2017-09-07 15:59:28,651 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:28,651 INFO  [SoapUITestCaseRunner] running step [GetISD]
+2017-09-07 15:59:28,915 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:28,915 INFO  [SoapUITestCaseRunner] running step [GetISOCountryCodeByCountyName]
+2017-09-07 15:59:29,180 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2017-09-07 15:59:29,181 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [countrySoap12 TestSuite], time taken: 4872ms, status: FINISHED
+2017-09-07 15:59:29,183 INFO  [SoapUITestCaseRunner] TestSuite [Smoke Test Suite] finished with status [FINISHED] in 4910ms
+2017-09-07 15:59:29,199 WARN  [Tools] Could not delete temporary directory C:\Users\ANNECA~1\AppData\Local\Temp\3e0a68db-cc15-41df-929d-80bee6b5402c
+2017-09-07 15:59:29,200 WARN  [Tools] Could not delete temporary directory C:\Users\ANNECA~1\AppData\Local\Temp\c4143308-49b8-43fa-892e-8ca191577c3f
+2017-09-07 15:59:29,208 WARN  [Tools] Could not delete temporary directory C:\Users\ANNECA~1\AppData\Local\Temp\48c1094d-5ffe-40ab-82a1-21ace55ffe22
+2017-09-07 15:59:29,208 WARN  [Tools] Could not delete temporary directory C:\Users\ANNECA~1\AppData\Local\Temp\fcd8c23c-0fb3-4ea2-92dc-726f1c882221
